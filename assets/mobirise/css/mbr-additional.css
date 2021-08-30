@@ -1124,6 +1124,34 @@ a {
     left: -1rem;
   }
 }
+.cid-sHCkx3ekfT {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-image: url("../../../assets/images/40901641-la-atencin-de-salud-dibujado-a-mano-de-fondo-seamess-vector-1300x1300.jpg");
+}
+.cid-sHCkx3ekfT .card-wrapper {
+  background: #ffffff;
+  border-radius: 4px;
+}
+@media (max-width: 767px) {
+  .cid-sHCkx3ekfT .card-wrapper {
+    padding: 1rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .cid-sHCkx3ekfT .card-wrapper {
+    padding: 2rem;
+  }
+}
+@media (min-width: 992px) {
+  .cid-sHCkx3ekfT .card-wrapper {
+    padding: 4rem;
+  }
+}
+.cid-sHCkx3ekfT .mbr-text,
+.cid-sHCkx3ekfT .mbr-section-btn {
+  text-align: left;
+}
 .cid-s48OLK6784 {
   z-index: 1000;
   width: 100%;
@@ -1466,133 +1494,135 @@ a {
     left: -1rem;
   }
 }
-.cid-sHqvV425Lc {
+.cid-sHC98zzJSh {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background-image: url("../../../assets/images/background3.jpg");
-}
-.cid-sHqvV425Lc .mbr-overlay {
   background: #fafafa;
-  opacity: 0.6;
 }
-.cid-sHqvV425Lc img,
-.cid-sHqvV425Lc .item-img {
-  width: 100%;
-  height: 100%;
-  height: 300px;
-  object-fit: cover;
-}
-.cid-sHqvV425Lc .item:focus,
-.cid-sHqvV425Lc span:focus {
-  outline: none;
-}
-.cid-sHqvV425Lc .item {
-  cursor: pointer;
+.cid-sHC98zzJSh .team-card {
   margin-bottom: 2rem;
+  transition: all 0.3s;
 }
-.cid-sHqvV425Lc .item-wrapper {
-  position: relative;
-  border-radius: 4px;
+.cid-sHC98zzJSh .team-card:hover {
+  transform: translateY(-10px);
+}
+.cid-sHC98zzJSh .card-wrap {
   background: #ffffff;
-  height: 100%;
-  display: flex;
-  flex-flow: column nowrap;
-}
-@media (min-width: 992px) {
-  .cid-sHqvV425Lc .item-wrapper .item-content {
-    padding: 2rem 2rem 0;
-  }
-  .cid-sHqvV425Lc .item-wrapper .item-footer {
-    padding: 0 2rem 2rem;
-  }
+  border-radius: 4px;
 }
 @media (max-width: 991px) {
-  .cid-sHqvV425Lc .item-wrapper .item-content {
-    padding: 1rem 1rem 0;
-  }
-  .cid-sHqvV425Lc .item-wrapper .item-footer {
-    padding: 0 1rem 1rem;
+  .cid-sHC98zzJSh .card-wrap {
+    margin-bottom: 2rem;
   }
 }
-.cid-sHqvV425Lc .mbr-section-btn {
-  margin-top: auto !important;
+.cid-sHC98zzJSh .card-wrap .image-wrap img {
+  width: 100%;
 }
-.cid-sHqvV425Lc .mbr-section-title {
-  color: #232323;
+@media (min-width: 768px) {
+  .cid-sHC98zzJSh .card-wrap .content-wrap {
+    padding: 2rem;
+  }
 }
-.cid-sHqvV425Lc .mbr-text,
-.cid-sHqvV425Lc .mbr-section-btn {
+@media (max-width: 767px) {
+  .cid-sHC98zzJSh .card-wrap .content-wrap {
+    padding: 1rem;
+  }
+}
+.cid-sHC98zzJSh .social-row {
+  text-align: center;
+}
+.cid-sHC98zzJSh .social-row .soc-item {
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin-right: 0.6rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 2px solid #6592e6;
+  transition: all 0.3s;
+}
+.cid-sHC98zzJSh .social-row .soc-item .mbr-iconfont {
+  transition: all 0.3s;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: #6592e6;
+  font-size: 1.5rem;
+}
+.cid-sHC98zzJSh .social-row .soc-item:hover {
+  background-color: #6592e6;
+}
+.cid-sHC98zzJSh .social-row .soc-item:hover .mbr-iconfont {
+  color: #ffffff;
+}
+.cid-sHC98zzJSh .card-text,
+.cid-sHC98zzJSh .mbr-section-btn,
+.cid-sHC98zzJSh .social-row {
   text-align: left;
 }
-.cid-sHqvV425Lc .item-title {
-  text-align: left;
-}
-.cid-sHqvV425Lc .item-subtitle {
-  text-align: left;
-  color: #bbbbbb;
-}
-.cid-sHqCiXUaZr {
+.cid-sHC9ElaJa5 {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background-image: url("../../../assets/images/background3.jpg");
-}
-.cid-sHqCiXUaZr .mbr-overlay {
   background: #fafafa;
-  opacity: 0.6;
 }
-.cid-sHqCiXUaZr img,
-.cid-sHqCiXUaZr .item-img {
-  width: 100%;
-  height: 100%;
-  height: 300px;
-  object-fit: cover;
-}
-.cid-sHqCiXUaZr .item:focus,
-.cid-sHqCiXUaZr span:focus {
-  outline: none;
-}
-.cid-sHqCiXUaZr .item {
-  cursor: pointer;
+.cid-sHC9ElaJa5 .team-card {
   margin-bottom: 2rem;
+  transition: all 0.3s;
 }
-.cid-sHqCiXUaZr .item-wrapper {
-  position: relative;
-  border-radius: 4px;
+.cid-sHC9ElaJa5 .team-card:hover {
+  transform: translateY(-10px);
+}
+.cid-sHC9ElaJa5 .card-wrap {
   background: #ffffff;
-  height: 100%;
-  display: flex;
-  flex-flow: column nowrap;
-}
-@media (min-width: 992px) {
-  .cid-sHqCiXUaZr .item-wrapper .item-content {
-    padding: 2rem 2rem 0;
-  }
-  .cid-sHqCiXUaZr .item-wrapper .item-footer {
-    padding: 0 2rem 2rem;
-  }
+  border-radius: 4px;
 }
 @media (max-width: 991px) {
-  .cid-sHqCiXUaZr .item-wrapper .item-content {
-    padding: 1rem 1rem 0;
-  }
-  .cid-sHqCiXUaZr .item-wrapper .item-footer {
-    padding: 0 1rem 1rem;
+  .cid-sHC9ElaJa5 .card-wrap {
+    margin-bottom: 2rem;
   }
 }
-.cid-sHqCiXUaZr .mbr-section-btn {
-  margin-top: auto !important;
+.cid-sHC9ElaJa5 .card-wrap .image-wrap img {
+  width: 100%;
 }
-.cid-sHqCiXUaZr .mbr-section-title {
-  color: #232323;
+@media (min-width: 768px) {
+  .cid-sHC9ElaJa5 .card-wrap .content-wrap {
+    padding: 2rem;
+  }
 }
-.cid-sHqCiXUaZr .mbr-text,
-.cid-sHqCiXUaZr .mbr-section-btn {
+@media (max-width: 767px) {
+  .cid-sHC9ElaJa5 .card-wrap .content-wrap {
+    padding: 1rem;
+  }
+}
+.cid-sHC9ElaJa5 .social-row {
+  text-align: center;
+}
+.cid-sHC9ElaJa5 .social-row .soc-item {
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin-right: 0.6rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 2px solid #6592e6;
+  transition: all 0.3s;
+}
+.cid-sHC9ElaJa5 .social-row .soc-item .mbr-iconfont {
+  transition: all 0.3s;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: #6592e6;
+  font-size: 1.5rem;
+}
+.cid-sHC9ElaJa5 .social-row .soc-item:hover {
+  background-color: #6592e6;
+}
+.cid-sHC9ElaJa5 .social-row .soc-item:hover .mbr-iconfont {
+  color: #ffffff;
+}
+.cid-sHC9ElaJa5 .card-text,
+.cid-sHC9ElaJa5 .mbr-section-btn,
+.cid-sHC9ElaJa5 .social-row {
   text-align: left;
-}
-.cid-sHqCiXUaZr .item-title {
-  text-align: left;
-}
-.cid-sHqCiXUaZr .item-subtitle {
-  text-align: left;
-  color: #bbbbbb;
 }
