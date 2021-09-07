@@ -5951,6 +5951,27 @@ a {
   background: #000;
   color: #fff;
 }
+.cid-sIlWIxO3TX {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: #ffffff;
+}
+@media (max-width: 991px) {
+  .cid-sIlWIxO3TX .image-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.cid-sIlWIxO3TX .row {
+  flex-direction: row-reverse;
+}
+.cid-sIlWIxO3TX img {
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .cid-sIlWIxO3TX .text-wrapper {
+    padding: 2rem;
+  }
+}
 .cid-sIlL0zR9jl {
   z-index: 1000;
   width: 100%;
