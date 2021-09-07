@@ -5133,15 +5133,32 @@ a {
   text-align: left;
   color: #232323;
 }
-.cid-sIlKz01s64 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-color: #ffffff;
-}
 .cid-sIlKA24XRG {
   padding-top: 5rem;
   padding-bottom: 5rem;
   background-color: #ffffff;
+}
+.cid-sImoMAIjRE {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: #98dee8;
+}
+.cid-sImoMAIjRE .row {
+  align-items: center;
+}
+@media (max-width: 991px) {
+  .cid-sImoMAIjRE .image-wrapper {
+    padding: 1rem;
+  }
+}
+@media (min-width: 992px) {
+  .cid-sImoMAIjRE .text-wrapper {
+    padding: 0 2rem;
+  }
+}
+.cid-sImoMAIjRE .mbr-text,
+.cid-sImoMAIjRE .mbr-section-btn {
+  text-align: left;
 }
 .cid-s48OLK6784 {
   z-index: 1000;
