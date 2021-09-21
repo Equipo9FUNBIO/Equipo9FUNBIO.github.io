@@ -10138,24 +10138,3 @@ a {
 .cid-sJGc7bmz3U {
   background-image: url("../../../assets/images/hito1-1920x1080.png");
 }
-.cid-sJGeNkN2r8 {
-  padding-top: 0rem;
-  padding-bottom: 0rem;
-  background-color: #ffffff;
-}
-@media (max-width: 991px) {
-  .cid-sJGeNkN2r8 .image-wrapper {
-    margin-bottom: 1rem;
-  }
-}
-.cid-sJGeNkN2r8 .row {
-  flex-direction: row-reverse;
-}
-.cid-sJGeNkN2r8 img {
-  width: 100%;
-}
-@media (min-width: 992px) {
-  .cid-sJGeNkN2r8 .text-wrapper {
-    padding: 2rem;
-  }
-}
