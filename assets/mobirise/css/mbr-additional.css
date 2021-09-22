@@ -10205,6 +10205,27 @@ a {
   text-align: left;
   color: #232323;
 }
+.cid-sJHcXIbT5b {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: #ffffff;
+}
+@media (max-width: 991px) {
+  .cid-sJHcXIbT5b .image-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.cid-sJHcXIbT5b .row {
+  flex-direction: row-reverse;
+}
+.cid-sJHcXIbT5b img {
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .cid-sJHcXIbT5b .text-wrapper {
+    padding: 2rem;
+  }
+}
 .cid-sJGuZ0ULv7 {
   padding-top: 0rem;
   padding-bottom: 0rem;
