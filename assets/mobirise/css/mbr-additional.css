@@ -12553,9 +12553,6 @@ a {
 .cid-sL1krGFN7t img,
 .cid-sL1krGFN7t .item-img {
   width: 100%;
-  height: 100%;
-  height: 400px;
-  object-fit: cover;
 }
 .cid-sL1krGFN7t .item:focus,
 .cid-sL1krGFN7t span:focus {
