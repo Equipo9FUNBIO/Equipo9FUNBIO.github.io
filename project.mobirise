@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Equipo 9",
-    "currentPage": "page14.html",
+    "currentPage": "entregable9.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -40,7 +40,7 @@
         "url": "https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
       }
     ],
-    "uniqCompNum": 238,
+    "uniqCompNum": 244,
     "versionPublish": "5.4.1",
     "imageResize": true,
     "screenshot": "screenshot.png",
@@ -52,7 +52,7 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "publishChangesOnly": false
+    "publishChangesOnly": true
   },
   "pages": {
     "index.html": {
@@ -4694,7 +4694,7 @@
           },
           "_name": "content5",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"11\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\"><b>\n                    Introducción</b></h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><div style=\"text-align: justify;\"><span style=\"font-size: 1.8rem;\">En ensayos preliminares [1] se ha demostrado que el uso de un dispositivo con transductor acústico en selectivas áreas proporciona una mejor limpieza que dispositivos OPEP y/o HFCWO, el tiempo del logro de tratamiento es similar y es mucho más adecuado para pacientes muy jóvenes. El mismo creador del dispositivo, paciente Fq a su vez, inició con la idea de una estimulación mecánica pero no dieron resultados favorables luego dió paso a una estimulación acústica y se dió cuenta de que era mucho más efectiva.</span></div><div style=\"text-align: justify;\"><span style=\"font-size: 1.8rem;\">Para dar veracidad a la estimulación acústica [2],en Canadá un niño de 9 años desde que lo empezó a usar  3 veces al día por 20 minutos, no ha tenido hospitalizaciones y la calidad de vida de familia mejoró; asimismo, un niño de 7 años con hospitalizaciones repetitivas a los 2 días de su aplicación, su infección disminuyó pues la eficacia de la tos aumentó drásticamente.&nbsp;&nbsp;</span></div></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"11\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\"><b>\n                    Introducción</b></h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"></p><div style=\"text-align: justify;\"><span style=\"font-size: 1.8rem;\">En ensayos preliminares [1] se ha demostrado que el uso de un dispositivo con transductor acústico en selectivas áreas proporciona una mejor limpieza que dispositivos OPEP y/o HFCWO, el tiempo del logro de tratamiento es similar y es mucho más adecuado para pacientes muy jóvenes. El mismo creador del dispositivo, paciente Fq a su vez, inició con la idea de una estimulación mecánica pero no dieron resultados favorables luego dió paso a una estimulación acústica y se dió cuenta de que era mucho más efectiva.</span></div><div style=\"text-align: justify;\"><span style=\"font-size: 1.8rem;\">Para dar veracidad a la estimulación acústica [2],en Canadá un niño de 9 años desde que lo empezó a usar  3 veces al día por 20 minutos, no ha tenido hospitalizaciones y la calidad de vida de familia mejoró; asimismo, un niño de 7 años con hospitalizaciones repetitivas a los 2 días de su aplicación, su infección disminuyó pues la eficacia de la tos aumentó drásticamente.&nbsp;&nbsp;</span></div><p></p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sKqPfOmihA",
           "_anchor": "content5-50",
           "_protectedParams": [],
@@ -18143,6 +18143,23 @@
           "_anchor": "content1-6l",
           "_isUserblock": true,
           "_cid": "sNF9PnCAGn",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor"
+          },
+          "_name": "content5",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\"><b>Repositorio Github</b></h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">El enlace al repositorio Github es el siguiente: https://github.com/Equipo9FUNBIO/Equipo9FUNBIO.github.io</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sNFeW5KL3E",
+          "_anchor": "content5-6r",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
