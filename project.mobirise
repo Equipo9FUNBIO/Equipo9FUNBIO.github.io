@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Equipo 9",
-    "currentPage": "page14.html",
+    "currentPage": "iteracion1.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -19428,7 +19428,7 @@
     },
     "iteracion1.html": {
       "settings": {
-        "title": "Entregable 11/Iteración 1",
+        "title": "Entregable 11/ Iteración 1",
         "order": 17
       },
       "components": [
