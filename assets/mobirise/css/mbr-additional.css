@@ -14981,19 +14981,14 @@ a {
 }
 .cid-sP3fuHoZZl {
   padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-bottom: 0rem;
   background-color: #ffffff;
 }
 .cid-sP3fuHoZZl .item {
   padding-bottom: 2rem;
 }
 .cid-sP3fuHoZZl .item-wrapper {
-  height: 100%;
   position: relative;
-}
-.cid-sP3fuHoZZl .item-wrapper img {
-  height: 100%;
-  object-fit: cover;
 }
 .cid-sP3fuHoZZl .item-wrapper .icon-wrapper {
   pointer-events: none;
