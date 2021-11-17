@@ -10460,6 +10460,30 @@ a {
 .cid-sOnCMBgzFy .mbr-section-title {
   color: #40b0bf;
 }
+.cid-sOZz4wbmcZ {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  background-color: #ffffff;
+}
+.cid-sOZz4wbmcZ .mbr-section-title {
+  color: #2299aa;
+}
+.cid-sOZzFJm7VB {
+  padding-top: 1rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
+}
+.cid-sOZzFJm7VB .mbr-section-subtitle {
+  color: #40b0bf;
+}
+.cid-sOZAK2WeH5 {
+  padding-top: 1rem;
+  padding-bottom: 5rem;
+  background-color: #ffffff;
+}
+.cid-sOZAK2WeH5 .mbr-section-subtitle {
+  color: #40b0bf;
+}
 .cid-sIXBepWbXH {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -15361,4 +15385,20 @@ a {
 }
 .cid-sOWQEPutQl {
   background-image: url("../../../assets/images/diseo-sin-ttulo-5-1920x1080.png");
+}
+.cid-sOZBPO8HXe {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: #ffffff;
+}
+.cid-sOZBPO8HXe .video-wrapper iframe {
+  width: 100%;
+}
+.cid-sOZBPO8HXe .mbr-section-title,
+.cid-sOZBPO8HXe .mbr-section-subtitle,
+.cid-sOZBPO8HXe .mbr-text {
+  text-align: center;
+}
+.cid-sOZBPO8HXe .mbr-section-title {
+  text-align: left;
 }
