@@ -2212,7 +2212,7 @@
               "margin-top": "auto !important"
             },
             ".mbr-section-title": {
-              "color": "#ffffff"
+              "color": "#22a5e5"
             },
             ".mbr-text, .mbr-section-btn": {
               "text-align": "center"
