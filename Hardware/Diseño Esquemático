@@ -1,0 +1,683 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:+5V #PWR?
+U 1 1 61A6FF95
+P 1550 2400
+F 0 "#PWR?" H 1550 2250 50  0001 C CNN
+F 1 "+5V" H 1565 2573 50  0000 C CNN
+F 2 "" H 1550 2400 50  0001 C CNN
+F 3 "" H 1550 2400 50  0001 C CNN
+	1    1550 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+9V #PWR?
+U 1 1 61A71430
+P 10150 3500
+F 0 "#PWR?" H 10150 3350 50  0001 C CNN
+F 1 "+9V" H 10165 3673 50  0000 C CNN
+F 2 "" H 10150 3500 50  0001 C CNN
+F 3 "" H 10150 3500 50  0001 C CNN
+	1    10150 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 61A71EA3
+P 5950 5300
+F 0 "#PWR?" H 5950 5050 50  0001 C CNN
+F 1 "Earth" H 5950 5150 50  0001 C CNN
+F 2 "" H 5950 5300 50  0001 C CNN
+F 3 "~" H 5950 5300 50  0001 C CNN
+	1    5950 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LibrariaEsquemático:TDA7073A U1
+U 1 1 61A72E8B
+P 6150 4450
+F 0 "U1" H 6150 4600 50  0000 C CNN
+F 1 "TDA7073A" H 6150 4500 50  0000 C CNN
+F 2 "" H 6150 4450 50  0001 C CNN
+F 3 "" H 6150 4450 50  0001 C CNN
+	1    6150 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LibrariaEsquemático:TDA7073A U2
+U 1 1 61A7477B
+P 7850 4450
+F 0 "U2" H 7850 4550 50  0000 C CNN
+F 1 "TDA7073A" H 7850 4450 50  0000 C CNN
+F 2 "" H 7850 4450 50  0001 C CNN
+F 3 "" H 7850 4450 50  0001 C CNN
+	1    7850 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LibrariaEsquemático:TDA7073A U3
+U 1 1 61A75498
+P 9600 4450
+F 0 "U3" H 9600 4550 50  0000 C CNN
+F 1 "TDA7073A" H 9600 4450 50  0000 C CNN
+F 2 "" H 9600 4450 50  0001 C CNN
+F 3 "" H 9600 4450 50  0001 C CNN
+	1    9600 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCU_Module:Arduino_UNO_R2 A?
+U 1 1 61A76488
+P 2650 4450
+F 0 "A?" V 2500 4400 50  0001 L CNN
+F 1 "Arduino_UNO_R2" V 2650 4050 50  0000 L CNN
+F 2 "Module:Arduino_UNO_R2" H 2650 4450 50  0001 C CIN
+F 3 "https://www.arduino.cc/en/Main/arduinoBoardUno" H 2650 4450 50  0001 C CNN
+	1    2650 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L Display_Character:WC1602A DS?
+U 1 1 61A77B51
+P 2600 2650
+F 0 "DS?" V 2646 1806 50  0001 R CNN
+F 1 "WC1602A" V 2550 2800 50  0000 R CNN
+F 2 "Display:WC1602A" H 2600 1750 50  0001 C CIN
+F 3 "http://www.wincomlcd.com/pdf/WC1602A-SFYLYHTC06.pdf" H 3300 2650 50  0001 C CNN
+	1    2600 2650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Speaker LS1
+U 1 1 61A7AA5F
+P 6850 4050
+F 0 "LS1" H 6950 4350 50  0000 L CNN
+F 1 "Speaker" H 6950 4300 50  0000 L CNN
+F 2 "" H 6850 3850 50  0001 C CNN
+F 3 "~" H 6840 4000 50  0001 C CNN
+	1    6850 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_POT RV?
+U 1 1 61A7BF70
+P 2000 1850
+F 0 "RV?" V 1793 1850 50  0001 C CNN
+F 1 "R_POT" V 1885 1850 50  0000 C CNN
+F 2 "" H 2000 1850 50  0001 C CNN
+F 3 "~" H 2000 1850 50  0001 C CNN
+	1    2000 1850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1550 4550 1450 4550
+Wire Wire Line
+	1450 4550 1450 4450
+Wire Wire Line
+	1450 4350 1550 4350
+Wire Wire Line
+	1450 4450 1250 4450
+Connection ~ 1450 4450
+Wire Wire Line
+	1450 4450 1450 4350
+Wire Wire Line
+	1550 4450 1450 4450
+$Comp
+L power:Earth #PWR?
+U 1 1 61A85639
+P 2100 3200
+F 0 "#PWR?" H 2100 2950 50  0001 C CNN
+F 1 "Earth" H 2100 3050 50  0001 C CNN
+F 2 "" H 2100 3200 50  0001 C CNN
+F 3 "~" H 2100 3200 50  0001 C CNN
+	1    2100 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 61A86291
+P 3600 2650
+F 0 "#PWR?" H 3600 2400 50  0001 C CNN
+F 1 "Earth" H 3600 2500 50  0001 C CNN
+F 2 "" H 3600 2650 50  0001 C CNN
+F 3 "~" H 3600 2650 50  0001 C CNN
+	1    3600 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 2650 3600 2650
+Wire Wire Line
+	2100 3050 2100 3200
+$Comp
+L Switch:SW_Push SW1
+U 1 1 61A88628
+P 5050 2250
+F 0 "SW1" H 5050 2535 50  0000 C CNN
+F 1 "SW_Push_next" H 5050 2444 50  0000 C CNN
+F 2 "" H 5050 2450 50  0001 C CNN
+F 3 "~" H 5050 2450 50  0001 C CNN
+	1    5050 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW2
+U 1 1 61A8900D
+P 5050 2750
+F 0 "SW2" H 5050 3035 50  0000 C CNN
+F 1 "SW_Push_play" H 5050 2944 50  0000 C CNN
+F 2 "" H 5050 2950 50  0001 C CNN
+F 3 "~" H 5050 2950 50  0001 C CNN
+	1    5050 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW3
+U 1 1 61A89720
+P 5050 3150
+F 0 "SW3" H 5050 3435 50  0000 C CNN
+F 1 "SW_Push_previous" H 5050 3344 50  0000 C CNN
+F 2 "" H 5050 3350 50  0001 C CNN
+F 3 "~" H 5050 3350 50  0001 C CNN
+	1    5050 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R1
+U 1 1 61A90251
+P 4550 2250
+F 0 "R1" V 4345 2250 50  0000 C CNN
+F 1 "R_US" V 4436 2250 50  0000 C CNN
+F 2 "" V 4590 2240 50  0001 C CNN
+F 3 "~" H 4550 2250 50  0001 C CNN
+	1    4550 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R2
+U 1 1 61A90AC0
+P 4550 2750
+F 0 "R2" V 4345 2750 50  0000 C CNN
+F 1 "R_US" V 4436 2750 50  0000 C CNN
+F 2 "" V 4590 2740 50  0001 C CNN
+F 3 "~" H 4550 2750 50  0001 C CNN
+	1    4550 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R3
+U 1 1 61A9133A
+P 4550 3150
+F 0 "R3" V 4345 3150 50  0000 C CNN
+F 1 "R_US" V 4436 3150 50  0000 C CNN
+F 2 "" V 4590 3140 50  0001 C CNN
+F 3 "~" H 4550 3150 50  0001 C CNN
+	1    4550 3150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4700 2250 4850 2250
+Wire Wire Line
+	4700 2750 4850 2750
+Wire Wire Line
+	4700 3150 4850 3150
+Wire Wire Line
+	5250 2250 5500 2250
+Wire Wire Line
+	5500 2250 5500 2750
+Wire Wire Line
+	5500 2750 5250 2750
+Wire Wire Line
+	5500 2750 5500 3150
+Wire Wire Line
+	5500 3150 5250 3150
+Connection ~ 5500 2750
+Wire Wire Line
+	5500 2750 5600 2750
+Wire Wire Line
+	5600 2750 5600 3500
+Wire Wire Line
+	5600 3500 3800 3500
+Wire Wire Line
+	3800 3500 3800 4650
+Wire Wire Line
+	3800 4650 3650 4650
+Wire Wire Line
+	4400 2750 3800 2750
+Wire Wire Line
+	3800 2750 3800 3450
+Wire Wire Line
+	3800 3450 2450 3450
+Wire Wire Line
+	2450 3450 2450 3950
+Wire Wire Line
+	4350 3150 4350 3350
+Wire Wire Line
+	4350 3350 2650 3350
+Wire Wire Line
+	2650 3350 2650 3950
+Wire Wire Line
+	4400 2250 3700 2250
+Wire Wire Line
+	3700 2250 3700 3400
+Wire Wire Line
+	3700 3400 2550 3400
+Wire Wire Line
+	2550 3400 2550 3950
+Wire Wire Line
+	3200 3050 3200 3700
+Wire Wire Line
+	3200 3700 3050 3700
+Wire Wire Line
+	3050 3700 3050 3950
+Wire Wire Line
+	3100 3050 3100 3650
+Wire Wire Line
+	3100 3650 2950 3650
+Wire Wire Line
+	2950 3650 2950 3950
+Wire Wire Line
+	3000 3050 3000 3600
+Wire Wire Line
+	3000 3600 2850 3600
+Wire Wire Line
+	2850 3600 2850 3950
+Wire Wire Line
+	2900 3050 2900 3550
+Wire Wire Line
+	2900 3550 2750 3550
+Wire Wire Line
+	2750 3550 2750 3950
+Wire Wire Line
+	2200 3700 2050 3700
+Wire Wire Line
+	2050 3700 2050 3950
+Wire Wire Line
+	2000 3500 3150 3500
+Wire Wire Line
+	3150 3500 3150 3950
+Wire Wire Line
+	1550 2400 1700 2400
+Wire Wire Line
+	1700 2400 1700 2650
+Wire Wire Line
+	1700 2650 1800 2650
+Wire Wire Line
+	1700 2400 1700 2050
+Wire Wire Line
+	1700 1850 1850 1850
+Connection ~ 1700 2400
+Wire Wire Line
+	2000 2000 2000 2250
+$Comp
+L power:Earth #PWR?
+U 1 1 61AA993F
+P 2750 1850
+F 0 "#PWR?" H 2750 1600 50  0001 C CNN
+F 1 "Earth" H 2750 1700 50  0001 C CNN
+F 2 "" H 2750 1850 50  0001 C CNN
+F 3 "~" H 2750 1850 50  0001 C CNN
+	1    2750 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 1850 2400 1850
+Wire Wire Line
+	2400 2250 2400 1850
+Connection ~ 2400 1850
+Wire Wire Line
+	2400 1850 2750 1850
+$Comp
+L Device:R_US R?
+U 1 1 61AAD22C
+P 2300 2100
+F 0 "R?" H 2500 2050 50  0001 R CNN
+F 1 "R_US" H 2550 2150 50  0000 R CNN
+F 2 "" V 2340 2090 50  0001 C CNN
+F 3 "~" H 2300 2100 50  0001 C CNN
+	1    2300 2100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2300 1950 2100 1950
+Wire Wire Line
+	2100 1950 2100 2050
+Wire Wire Line
+	2100 2050 1700 2050
+Connection ~ 1700 2050
+Wire Wire Line
+	1700 2050 1700 1850
+Wire Wire Line
+	2200 3050 2200 3700
+Wire Wire Line
+	2000 3050 2000 3500
+Wire Wire Line
+	1250 4450 1250 5200
+Wire Wire Line
+	1250 5200 3800 5200
+Wire Wire Line
+	9750 5200 9750 5050
+Connection ~ 5950 5200
+Wire Wire Line
+	9550 5050 9550 5200
+Connection ~ 9550 5200
+Wire Wire Line
+	9550 5200 9750 5200
+Wire Wire Line
+	8000 5050 8000 5200
+Connection ~ 8000 5200
+Wire Wire Line
+	8000 5200 9050 5200
+Wire Wire Line
+	5950 5200 6100 5200
+Wire Wire Line
+	7800 5050 7800 5200
+Connection ~ 7800 5200
+Wire Wire Line
+	7800 5200 8000 5200
+Wire Wire Line
+	6300 5050 6300 5200
+Connection ~ 6300 5200
+Wire Wire Line
+	6300 5200 7300 5200
+Wire Wire Line
+	6100 5050 6100 5200
+Connection ~ 6100 5200
+Wire Wire Line
+	6100 5200 6300 5200
+$Comp
+L Device:R_POT RV1
+U 1 1 61AC65DF
+P 4450 4000
+F 0 "RV1" V 4243 4000 50  0000 C CNN
+F 1 "R_POT" V 4334 4000 50  0000 C CNN
+F 2 "" H 4450 4000 50  0001 C CNN
+F 3 "~" H 4450 4000 50  0001 C CNN
+	1    4450 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_POT RV3
+U 1 1 61AC7629
+P 4450 4900
+F 0 "RV3" V 4243 4900 50  0000 C CNN
+F 1 "R_POT" V 4334 4900 50  0000 C CNN
+F 2 "" H 4450 4900 50  0001 C CNN
+F 3 "~" H 4450 4900 50  0001 C CNN
+	1    4450 4900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4600 4000 4850 4000
+Wire Wire Line
+	4850 4000 4850 4450
+Wire Wire Line
+	4850 4450 4850 4900
+Wire Wire Line
+	4850 4900 4600 4900
+Connection ~ 4850 4450
+Wire Wire Line
+	2350 3950 2350 3900
+Wire Wire Line
+	2350 3900 4250 3900
+Wire Wire Line
+	4250 3900 4250 4000
+Wire Wire Line
+	4250 4000 4300 4000
+Wire Wire Line
+	2250 3950 2250 3850
+Wire Wire Line
+	2250 3850 4200 3850
+Wire Wire Line
+	4200 3850 4200 4450
+Wire Wire Line
+	2150 3950 2150 3800
+Wire Wire Line
+	2150 3800 4150 3800
+Wire Wire Line
+	4150 3800 4150 4900
+Wire Wire Line
+	4150 4900 4300 4900
+Wire Wire Line
+	4850 4450 5150 4450
+Connection ~ 5150 5200
+Wire Wire Line
+	4450 4150 5500 4150
+Wire Wire Line
+	5500 4150 5500 4050
+Wire Wire Line
+	5500 4050 5700 4050
+Wire Wire Line
+	5500 4150 5500 4750
+Wire Wire Line
+	5500 4750 5700 4750
+Connection ~ 5500 4150
+Wire Wire Line
+	7400 4250 7350 4250
+Wire Wire Line
+	7350 4250 7350 4400
+Wire Wire Line
+	7350 4600 7400 4600
+Wire Wire Line
+	7350 4400 7300 4400
+Wire Wire Line
+	7300 4400 7300 5200
+Connection ~ 7350 4400
+Wire Wire Line
+	7350 4400 7350 4600
+Connection ~ 7300 5200
+Wire Wire Line
+	7300 5200 7800 5200
+Wire Wire Line
+	9150 4250 9100 4250
+Wire Wire Line
+	9100 4250 9100 4400
+Wire Wire Line
+	9100 4600 9150 4600
+Wire Wire Line
+	9100 4400 9050 4400
+Wire Wire Line
+	9050 4400 9050 5200
+Connection ~ 9100 4400
+Wire Wire Line
+	9100 4400 9100 4600
+Connection ~ 9050 5200
+Wire Wire Line
+	9050 5200 9550 5200
+Wire Wire Line
+	5150 5200 5600 5200
+Wire Wire Line
+	5700 4250 5650 4250
+Wire Wire Line
+	5650 4250 5650 4400
+Wire Wire Line
+	5650 4600 5700 4600
+Wire Wire Line
+	5650 4400 5600 4400
+Wire Wire Line
+	5600 4400 5600 5200
+Connection ~ 5650 4400
+Wire Wire Line
+	5650 4400 5650 4600
+Connection ~ 5600 5200
+Wire Wire Line
+	5600 5200 5950 5200
+Wire Wire Line
+	7250 4750 7400 4750
+Wire Wire Line
+	7250 4050 7400 4050
+Wire Wire Line
+	7250 4050 7250 4750
+Wire Wire Line
+	4450 5050 5000 5050
+Wire Wire Line
+	5000 5050 5000 3600
+Wire Wire Line
+	5000 3600 9000 3600
+Wire Wire Line
+	9000 3600 9000 4050
+Wire Wire Line
+	9000 4750 9150 4750
+Wire Wire Line
+	9000 4050 9150 4050
+Connection ~ 9000 4050
+Wire Wire Line
+	9000 4050 9000 4750
+Wire Wire Line
+	5150 4450 5150 5200
+Wire Wire Line
+	4200 4450 4300 4450
+Wire Wire Line
+	4850 4450 4600 4450
+$Comp
+L Device:R_POT RV2
+U 1 1 61AC704B
+P 4450 4450
+F 0 "RV2" V 4243 4450 50  0000 C CNN
+F 1 "R_POT" V 4334 4450 50  0000 C CNN
+F 2 "" H 4450 4450 50  0001 C CNN
+F 3 "~" H 4450 4450 50  0001 C CNN
+	1    4450 4450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4450 4600 5100 4600
+Connection ~ 7250 4050
+Wire Wire Line
+	7250 3650 7250 4050
+Wire Wire Line
+	5100 4600 5100 3650
+Wire Wire Line
+	5100 3650 7250 3650
+$Comp
+L Device:Speaker LS2
+U 1 1 61B63FF5
+P 6850 4600
+F 0 "LS2" H 6850 4300 50  0000 L CNN
+F 1 "Speaker" H 6850 4250 50  0000 L CNN
+F 2 "" H 6850 4400 50  0001 C CNN
+F 3 "~" H 6840 4550 50  0001 C CNN
+	1    6850 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Speaker LS3
+U 1 1 61B64738
+P 8550 4050
+F 0 "LS3" H 8650 4400 50  0000 L CNN
+F 1 "Speaker" H 8650 4350 50  0000 L CNN
+F 2 "" H 8550 3850 50  0001 C CNN
+F 3 "~" H 8540 4000 50  0001 C CNN
+	1    8550 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Speaker LS4
+U 1 1 61B65207
+P 8550 4600
+F 0 "LS4" H 8650 4300 50  0000 L CNN
+F 1 "Speaker" H 8650 4250 50  0000 L CNN
+F 2 "" H 8550 4400 50  0001 C CNN
+F 3 "~" H 8540 4550 50  0001 C CNN
+	1    8550 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Speaker LS5
+U 1 1 61B659A5
+P 10300 4050
+F 0 "LS5" H 10450 4300 50  0000 L CNN
+F 1 "Speaker" H 10450 4250 50  0000 L CNN
+F 2 "" H 10300 3850 50  0001 C CNN
+F 3 "~" H 10290 4000 50  0001 C CNN
+	1    10300 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Speaker LS6
+U 1 1 61B66425
+P 10300 4600
+F 0 "LS6" H 10450 4300 50  0000 L CNN
+F 1 "Speaker" H 10450 4250 50  0000 L CNN
+F 2 "" H 10300 4400 50  0001 C CNN
+F 3 "~" H 10290 4550 50  0001 C CNN
+	1    10300 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 4000 8350 4050
+Wire Wire Line
+	8350 4150 8350 4200
+Wire Wire Line
+	8350 4550 8350 4600
+Wire Wire Line
+	8350 4700 8350 4750
+Wire Wire Line
+	6650 4000 6650 4050
+Wire Wire Line
+	6650 4150 6650 4200
+Wire Wire Line
+	6650 4550 6650 4600
+Wire Wire Line
+	6650 4700 6650 4750
+Wire Wire Line
+	10100 4000 10100 4050
+Wire Wire Line
+	10100 4150 10100 4200
+Wire Wire Line
+	10100 4600 10100 4550
+Wire Wire Line
+	10100 4750 10100 4700
+Wire Wire Line
+	6100 3750 6100 3500
+Wire Wire Line
+	6100 3500 7800 3500
+Wire Wire Line
+	9550 3750 9550 3500
+Connection ~ 9550 3500
+Wire Wire Line
+	9550 3500 10150 3500
+Wire Wire Line
+	7800 3750 7800 3500
+Connection ~ 7800 3500
+Wire Wire Line
+	7800 3500 9550 3500
+Wire Wire Line
+	5950 5200 5950 5300
+$Comp
+L Device:R_POT RV?
+U 1 1 61BBF379
+P 3800 5000
+F 0 "RV?" H 3730 4954 50  0001 R CNN
+F 1 "R_POT" H 3730 5000 50  0000 R CNN
+F 2 "" H 3800 5000 50  0001 C CNN
+F 3 "~" H 3800 5000 50  0001 C CNN
+	1    3800 5000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3800 4650 3800 4850
+Connection ~ 3800 4650
+Wire Wire Line
+	3800 5150 3800 5200
+Connection ~ 3800 5200
+Wire Wire Line
+	3800 5200 5150 5200
+Wire Wire Line
+	3650 5000 2650 5000
+Wire Wire Line
+	2650 5000 2650 4950
+$EndSCHEMATC
