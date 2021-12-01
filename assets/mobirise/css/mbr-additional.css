@@ -16604,3 +16604,19 @@ a {
   width: 100%;
   object-fit: cover;
 }
+.cid-sQiKmrnXav {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: #ffffff;
+}
+.cid-sQiKmrnXav .video-wrapper iframe {
+  width: 100%;
+}
+.cid-sQiKmrnXav .mbr-section-title,
+.cid-sQiKmrnXav .mbr-section-subtitle,
+.cid-sQiKmrnXav .mbr-text {
+  text-align: center;
+}
+.cid-sQiKmrnXav .mbr-section-title {
+  text-align: left;
+}
