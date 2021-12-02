@@ -16832,3 +16832,24 @@ a {
 .cid-sQnjrACUYT .mbr-section-subtitle {
   text-align: left;
 }
+.cid-sQphystgM0 {
+  padding-top: 0rem;
+  padding-bottom: 6rem;
+  background-color: #ffffff;
+}
+@media (max-width: 991px) {
+  .cid-sQphystgM0 .image-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.cid-sQphystgM0 .row {
+  flex-direction: row-reverse;
+}
+.cid-sQphystgM0 img {
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .cid-sQphystgM0 .text-wrapper {
+    padding: 2rem;
+  }
+}
